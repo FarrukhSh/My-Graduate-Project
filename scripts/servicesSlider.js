@@ -73,16 +73,16 @@ function startStopSlider() {
     if (sliderID) {
         sliderID = !sliderID;
         clearInterval(activeSlider);
-        startStopButton.style.backgroundImage = "url('../images/servic/start.png')";
+        startStopButton.style.backgroundImage = "url(./images/servic/start.png)";
     } else {
         sliderID = !sliderID;
         activeSlider = setInterval(autoSlider, 1500);
-        startStopButton.style.backgroundImage = "url('../images/servic/stop.png')";
+        startStopButton.style.backgroundImage = "url(./images/servic/stop.png)";
     }
 
 }
 
-if (startStopButton.style.backgroundImage = "url('../images/servic/stop.png')") {
+if (startStopButton.style.backgroundImage = "url(./images/servic/stop.png)") {
     startStopButton.addEventListener('click', () => {
         startStopSlider();
     });
