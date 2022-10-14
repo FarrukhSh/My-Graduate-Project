@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+}
+
+.container {
+    margin: 0 auto;
+    justify-content: center;
+    padding: 20px 40px;
+    width: 1267px;
+}
+
+body {
+    background: #FFFFFF;
+
+}
+
+section:first-child {
+    background: linear-gradient(90deg, rgba(255, 219, 128, 0.205) 0%, #47cbf316 100%);
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+
+section:nth-child(2) {
+    background: linear-gradient(90deg, rgba(255, 219, 128, 0.205) 0%, rgba(255, 219, 128, 0.065) 100%);
+    opacity: 0.9;
+}
+
+section:nth-child(3) {
+    background: linear-gradient(90deg, rgba(255, 219, 128, 0.091) 0%, rgba(255, 219, 128, 0.04) 100%);
+    opacity: 0.9;
+}
+
+section:nth-child(4) {
+    background: linear-gradient(90deg, rgba(255, 219, 128, 0.068) 0%, rgba(255, 219, 128, 0.04) 100%);
+    opacity: 0.9;
+}
+
+section:nth-child(5) {
+    background: linear-gradient(90deg, rgba(255, 219, 128, 0.04) 0%, rgba(255, 219, 128, 0.04) 100%);
+    opacity: 0.9;
+}
+
+section:nth-child(6) {
+    background: linear-gradient(90deg, rgba(255, 219, 128, 0.028) 0%, rgba(255, 219, 128, 0.04) 100%);
+    opacity: 0.9;
+}
+
+section:nth-child(7) {
+    background: linear-gradient(90deg, rgba(255, 219, 128, 0.006) 0%, rgba(255, 219, 128, 0.04) 100%);
+    opacity: 0.9;
+}
+
+
+footer {
+    background: linear-gradient(180deg, rgba(253, 91, 47, 0) 0%, #fd5c2f45 100%);
+    opacity: 0.9;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: local('Cera Pro Medium'), local('Cera-Pro-Medium'),
+        url('./fonts/CeraPro-Medium/CeraPro-Medium.woff2') format('woff2'),
+        url('./fonts/CeraPro-Medium/CeraPro-Medium.woff') format('woff'),
+        url('./fonts/CeraPro-Medium/CeraPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: local('Cera Pro Regular'), local('Cera-Pro-Regular'),
+        url('./fonts/CeraPro-Regular/CeraPro-Regular.woff2') format('woff2'),
+        url('./fonts/CeraPro-Regular/CeraPro-Regular.woff') format('woff'),
+        url('./fonts/CeraPro-Regular/CeraPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy SemiBold";
+    src: url("./fonts/gilroy/Gilroy-SemiBold.ttf") format("truetype");
+
+
+}
+
+@font-face {
+    font-family: "Gilroy Medium";
+    src: url("./fonts/gilroy/Gilroy-Medium.ttf") format("truetype");
+
+
+}
+
+@font-face {
+    font-family: "Gilroy Regular";
+    src: url("./fonts/gilroy/Gilroy-Regular.ttf") format("truetype");
+
+
+}
+
+@media only screen and (max-width: 1250px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width:auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px 20px;
+    }
+}
