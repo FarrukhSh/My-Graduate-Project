@@ -43,7 +43,6 @@ for (let i = 0; i < scrollControl.length; i++) {
         activeIndex = i;
         scrollControl[activeIndex].classList.add('active');
 
-        scrollblock.style.background = `url(./images/servic/${sliderImages[activeIndex].name})`;
         scrollblock.style.backgroundRepeat = 'norepeat';
         scrollblock.style.backgroundSize = 'cover';
     });
@@ -60,7 +59,6 @@ let autoSlider = () => {
     }
     scrollControl[activeIndex].classList.add('active');
 
-    scrollblock.style.background = `url(./images/servic/${sliderImages[activeIndex].name})`;
     scrollblock.style.backgroundRepeat = 'norepeat';
     scrollblock.style.backgroundSize = 'cover';
 };
