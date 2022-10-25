@@ -1,0 +1,135 @@
+.cause-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.cause-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gilroy SemiBold';
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FD5B2F;
+}
+
+.cause-subtitle {
+    width: 520px;
+    font-family: 'Gilroy Medium';
+    font-size: 54px;
+    line-height: 71px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.cause-choose-block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 160px;
+}
+
+.choose-properties {
+    display: flex;
+    margin: 0 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-properties:hover {
+    animation: chooseScale 1s infinite;
+    /* animation: chooseRotate 0.5s linear ; */
+}
+
+.choose-img {
+    margin-bottom: 30px;
+}
+
+.choose-title {
+    font-family: 'Gilroy SemiBold';
+    font-size: 21px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.choose-subtitle {
+    width: 160px;
+    text-align: center;
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.5369px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+@media only screen and (max-width: 1020px) {
+    .cause-choose-block {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+    }
+
+    .choose-properties {
+        display: flex;
+        margin: 20px 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .cause-title {
+        width: initial;
+        font-size: 24px;
+        font-weight: bolder;
+        line-height: 24px;
+    }
+
+    .cause-subtitle {
+        width: initial;
+        height: initial;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+/* @keyframes chooseRotate {
+    0% {
+        transform: rotate(0deg);
+        
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+    
+} */
+
+@keyframes chooseScale {
+    from {
+        transform: scale(0.95);
+        
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(0.95)  ;
+    }
+}

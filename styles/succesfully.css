@@ -1,0 +1,144 @@
+.blur-window {
+    filter: blur(20px);
+}
+
+.succesfully-window {
+    display: none;
+    border-radius: 20px;
+    position: fixed;
+    left: 35vw;
+    top: 35vh;
+    padding: 20px 20px;
+    z-index: 9999;
+    width: 400px;
+    height: 200px;
+    background: white;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: rgba(78, 74, 74, 0.202) 2px 4px 8px 4px;
+}
+
+#confirm {
+    width: 120px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FD5B2F;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+}
+
+#confirm:active {
+    width: 118px;
+    height: 58px;
+    box-shadow: #FD5B2F .5px .5px 1.5px 1.5px;
+    color: rgba(255, 255, 255, 0.735);
+}
+
+.succesfully-img {
+    width: 10px;
+}
+
+.succesfully-window img {
+    position: relative;
+    left: -80px;
+    top: -80px;
+    width: 150px;
+    height: 150px;
+}
+
+.succesfully-text {
+    margin-left: 50px;
+    height: 150px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media only screen and (max-width: 703px) {
+    .succesfully-window {
+        left: 25vw;
+    }
+
+
+}
+
+@media only screen and (max-width: 559px) {
+    .succesfully-window {
+        left: 22vw;
+        top: 35vh;
+        padding: 20px 20px;
+        width: 300px;
+        height: 174px;
+        font-size: 20px;
+    }
+
+    #confirm {
+        width: 89px;
+        height: 47px;
+        font-size: 15px;
+    }
+
+    #confirm:active {
+        width: 87px;
+        height: 45px;
+        box-shadow: #FD5B2F .5px .5px 1.5px 1.5px;
+        color: rgba(255, 255, 255, 0.735);
+    }
+}
+
+@media only screen and (max-width: 473px) {
+    .succesfully-window {
+        left: 12vw;
+    }
+
+
+}
+
+@media only screen and (max-width: 473px) {
+    .succesfully-window {
+
+        left: 12vw;
+        top: 35vh;
+        padding: 20px 20px;
+        width: 188px;
+        height: 134px;
+        font-size: 20px;
+    }
+
+    .succesfully-window img {
+        position: relative;
+        left: -60px;
+        top: -60px;
+        width: 100px;
+        height: 100px;
+    }
+
+    #confirm {
+        width: 73px;
+        height: 34px;
+        font-size: 15px;
+    }
+
+    #confirm:active {
+        width: 71px;
+        height: 32px;
+        box-shadow: #FD5B2F .25px .25px 1px 1px;
+
+    }
+
+    .succesfully-text {
+        margin-left: 25px;
+        height: 150px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}

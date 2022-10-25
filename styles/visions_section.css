@@ -1,0 +1,338 @@
+.visions-block {
+    display: flex;
+    margin: 120px 0;
+}
+
+.visions-properties {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+.high-quality {
+    display: flex;
+}
+
+.quality-img {
+    margin-right: 15px;
+}
+
+.quality-title {
+    width: 223.57px;
+    height: 19.85px;
+    font-family: 'Gilroy Medium';
+    font-size: 16.7159px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.quality-subtitle {
+    width: 247.6px;
+    height: 50.15px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5816px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.equipped-block {
+    display: flex;
+}
+
+.equipped-img {
+    margin-right: 15px;
+
+}
+
+.equipped-title {
+    width: 223.57px;
+    height: 19.85px;
+    font-family: 'Gilroy Medium';
+    font-size: 16.7159px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 16px;
+
+}
+
+.equipped-subtitle {
+    width: 247.6px;
+    height: 50.15px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5816px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.inclusive-block {
+    display: flex;
+    margin-top: 16px;
+
+
+}
+
+.inclusive-img {
+    margin-right: 15px;
+
+}
+
+
+.inclusive-title {
+    margin-bottom: 16px;
+
+    width: 223.57px;
+    height: 19.85px;
+    font-family: 'Gilroy Medium';
+    font-size: 16.7159px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.inclusive-subtitle {
+    width: 247.6px;
+    height: 50.15px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5816px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.visions-btn {
+    margin-top: 60px;
+    font-family: 'Gilroy Medium';
+    font-style: normal;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16.7159px;
+    line-height: 25px;
+    width: 176.56px;
+    height: 56.42px;
+    color: #FFFFFF;
+    border: none;
+    background: #FD5B2F;
+    border-radius: 5.22371px;
+    margin-right: -80px;
+    cursor: pointer;
+}
+
+.visions-btn:active {
+    box-shadow: #FD5B2F 0.2px -0.2px 0.7px 1px;
+    color: #ffffff92;
+}
+
+.visions-images {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.visions-images img:first-child {
+    margin-top: 60px;
+}
+
+.visions-images img:nth-child(2) {
+    width: 300px;
+    height: 300px;
+    margin-top: -440px;
+    margin-left: 75px;
+}
+
+.visions-images img:nth-child(3) {
+    width: 160px;
+    height: 160px;
+    margin-top: -330px;
+    margin-left: 314px;
+    margin-right: -60px;
+}
+
+.visions-images img:nth-child(4) {
+    width: 380px;
+    height: 380px;
+    margin-top: 210px;
+    margin-left: -5px;
+}
+
+.visions-images img:nth-child(5) {
+    width: 300px;
+    height: 300px;
+    margin-top: -545px;
+    margin-left: 310px;
+    margin-right: -230px;
+
+}
+
+@media only screen and (max-width: 1352px) {
+    .visions-images {
+
+        margin-left: initial;
+    }
+
+}
+
+@media only screen and (max-width: 1292px) {
+
+    .visions-images img:first-child {
+        margin-top: 60px;
+    }
+
+    .visions-images img:nth-child(2) {
+        width: 300px;
+        height: 300px;
+        margin-top: -440px;
+        margin-left: -33px;
+    }
+
+    .visions-images img:nth-child(3) {
+        width: 202px;
+        height: 202px;
+        margin-top: -300px;
+        margin-left: 249px;
+        margin-right: -60px;
+    }
+
+    .visions-images img:nth-child(4) {
+        width: 380px;
+        height: 380px;
+        margin-top: 113px;
+        margin-left: 0px;
+    }
+
+    .visions-images img:nth-child(5) {
+        width: 300px;
+        height: 300px;
+        margin-top: -549px;
+        margin-left: 175px;
+        margin-right: -230px;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 1134px) {
+    .visions-block {
+        flex-direction: column;
+        margin: 40px 0;
+    }
+
+    .visions-properties {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: initial;
+        margin: 10px auto;
+    }
+
+    .visions-properties div {
+        margin-top: 10px;
+    }
+
+    .inclusive-block {
+        margin-top: initial;
+    }
+
+    .visions-images {
+        display: flex;
+        align-items: center;
+    }
+
+    .visions-images img:first-child {
+        width: 700px;
+        margin-top: -654px;
+    }
+
+    .visions-images img:nth-child(2) {
+        width: 300px;
+        height: 300px;
+        margin-top: -556px;
+        margin-left: -387px;
+    }
+
+    .visions-images img:nth-child(3) {
+        width: 400px;
+        height: 390px;
+        margin-top: -86px;
+        margin-left: 318px;
+        margin-right: 719px;
+    }
+
+    .visions-images img:nth-child(4) {
+        width: 380px;
+        height: 380px;
+        margin-top: -605px;
+        margin-left: 272px;
+    }
+
+    .visions-images img:nth-child(5) {
+        width: 420px;
+        height: 390px;
+        margin-top: -45px;
+        margin-left: 36px;
+        margin-right: -237px;
+
+    }
+
+    .visions-btn {
+        margin-top: 620px;
+
+        margin-right: initial;
+        margin-left: 18vw;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .visions-images {
+        display: none;
+    }
+
+    .vision-animation-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .animation-window {
+        border: 2px solid #FD5B2F;
+        height: 40vh;
+        width: 80vw;
+        animation: changeBg 8s infinite;
+    }
+
+
+    @keyframes changeBg {
+
+        0%,
+        100% {
+            background-image: url("../images/visions/animation/Rectangle17.png");
+            background-repeat: no-repeat;
+            background-size: 80vw 40vh;
+        }
+
+        25% {
+            background-image: url("../images/visions/animation/Rectangle18.png");
+        }
+
+        50% {
+            background-image: url("../images/visions/animation/Rectangle19.png");
+        }
+
+        75% {
+            background-image: url("../images/visions/animation/Rectangle20.png");
+        }
+    }
+
+    .visions-btn {
+        margin-top: 20px;
+        margin-right: initial;
+        margin-left: 10%;
+    }
+
+}
